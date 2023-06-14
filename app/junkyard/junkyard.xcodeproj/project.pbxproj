@@ -1,0 +1,737 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D62530382A266D4F00E009C1 /* NotifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62530372A266D4F00E009C1 /* NotifManager.swift */; };
+		D625303A2A26717B00E009C1 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62530392A26717B00E009C1 /* AccountView.swift */; };
+		D625303C2A26800600E009C1 /* AccountData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625303B2A26800600E009C1 /* AccountData.swift */; };
+		D625303E2A2684AF00E009C1 /* AccountGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = D625303D2A2684AF00E009C1 /* AccountGrid.swift */; };
+		D64C32E32A22634D00A6543D /* ItemData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C32E22A22634D00A6543D /* ItemData.swift */; };
+		D64C32E52A2266C700A6543D /* ItemSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C32E42A2266C700A6543D /* ItemSheet.swift */; };
+		D64C32E92A2274C600A6543D /* ItemLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64C32E82A2274C500A6543D /* ItemLayout.swift */; };
+		D65980442A0D1789008E387F /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65980432A0D1789008E387F /* SearchView.swift */; };
+		D68FE3792A0D1E2500B403D7 /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FE3782A0D1E2500B403D7 /* SearchData.swift */; };
+		D68FE39E2A0D5A3100B403D7 /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FE39D2A0D5A3100B403D7 /* ChatView.swift */; };
+		D68FE3A32A0D658300B403D7 /* BotResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D68FE3A22A0D658300B403D7 /* BotResponse.swift */; };
+		D6B05FC72A278BB200F8A863 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B05FC62A278BB100F8A863 /* ImagePicker.swift */; };
+		D6B05FC92A27969D00F8A863 /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B05FC82A27969D00F8A863 /* UserResponse.swift */; };
+		D6C989BC2A0FF4B00091B0B6 /* JSONdecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6C989BB2A0FF4B00091B0B6 /* JSONdecoder.swift */; };
+		D6D55CE42A26359B0056E261 /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D55CE32A26359B0056E261 /* MessagesView.swift */; };
+		D6D55CE62A26602F0056E261 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D55CE52A26602F0056E261 /* AppDelegate.swift */; };
+		D6D6848D2A069A78009064BE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6848C2A069A78009064BE /* HomeView.swift */; };
+		D6D6848F2A06D9AF009064BE /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D6848E2A06D9AF009064BE /* UploadView.swift */; };
+		D6DBA3932A04006500BD6B84 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBA3922A04006500BD6B84 /* RegisterView.swift */; };
+		D6DBA3952A040D4000BD6B84 /* RegisterFinalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBA3942A040D4000BD6B84 /* RegisterFinalView.swift */; };
+		D6DBA3972A040D5200BD6B84 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBA3962A040D5200BD6B84 /* ContentView.swift */; };
+		D6EA61F92A12632D00DCE1BF /* Lacquer-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6EA61F82A12632C00DCE1BF /* Lacquer-Regular.ttf */; };
+		D6ECA59A2A029BFE004A33B6 /* junkyardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECA5992A029BFE004A33B6 /* junkyardApp.swift */; };
+		D6ECA59C2A029BFE004A33B6 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECA59B2A029BFE004A33B6 /* LoginView.swift */; };
+		D6ECA59E2A029BFF004A33B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6ECA59D2A029BFF004A33B6 /* Assets.xcassets */; };
+		D6ECA5A22A029BFF004A33B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6ECA5A12A029BFF004A33B6 /* Preview Assets.xcassets */; };
+		D6ECA5AC2A029C00004A33B6 /* junkyardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECA5AB2A029C00004A33B6 /* junkyardTests.swift */; };
+		D6ECA5B62A029C00004A33B6 /* junkyardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECA5B52A029C00004A33B6 /* junkyardUITests.swift */; };
+		D6ECA5B82A029C00004A33B6 /* junkyardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECA5B72A029C00004A33B6 /* junkyardUITestsLaunchTests.swift */; };
+		D6ECA5C52A02A8CC004A33B6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6ECA5C42A02A8CC004A33B6 /* SplashScreenView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D6ECA5A82A029C00004A33B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6ECA58E2A029BFE004A33B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6ECA5952A029BFE004A33B6;
+			remoteInfo = junkyard;
+		};
+		D6ECA5B22A029C00004A33B6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6ECA58E2A029BFE004A33B6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D6ECA5952A029BFE004A33B6;
+			remoteInfo = junkyard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D62530372A266D4F00E009C1 /* NotifManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotifManager.swift; sourceTree = "<group>"; };
+		D62530392A26717B00E009C1 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		D625303B2A26800600E009C1 /* AccountData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountData.swift; sourceTree = "<group>"; };
+		D625303D2A2684AF00E009C1 /* AccountGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountGrid.swift; sourceTree = "<group>"; };
+		D64C32E22A22634D00A6543D /* ItemData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemData.swift; sourceTree = "<group>"; };
+		D64C32E42A2266C700A6543D /* ItemSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemSheet.swift; sourceTree = "<group>"; };
+		D64C32E82A2274C500A6543D /* ItemLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemLayout.swift; sourceTree = "<group>"; };
+		D65980432A0D1789008E387F /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		D68FE3782A0D1E2500B403D7 /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
+		D68FE39D2A0D5A3100B403D7 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		D68FE3A22A0D658300B403D7 /* BotResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BotResponse.swift; sourceTree = "<group>"; };
+		D6B05FC62A278BB100F8A863 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		D6B05FC82A27969D00F8A863 /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		D6C989BB2A0FF4B00091B0B6 /* JSONdecoder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONdecoder.swift; sourceTree = "<group>"; };
+		D6D55CE32A26359B0056E261 /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		D6D55CE52A26602F0056E261 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D6D6848C2A069A78009064BE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		D6D6848E2A06D9AF009064BE /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		D6DBA3922A04006500BD6B84 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		D6DBA3942A040D4000BD6B84 /* RegisterFinalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFinalView.swift; sourceTree = "<group>"; };
+		D6DBA3962A040D5200BD6B84 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D6EA61F82A12632C00DCE1BF /* Lacquer-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Lacquer-Regular.ttf"; sourceTree = "<group>"; };
+		D6EA61FA2A1266CC00DCE1BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		D6ECA5962A029BFE004A33B6 /* junkyard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = junkyard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ECA5992A029BFE004A33B6 /* junkyardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkyardApp.swift; sourceTree = "<group>"; };
+		D6ECA59B2A029BFE004A33B6 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		D6ECA59D2A029BFF004A33B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D6ECA59F2A029BFF004A33B6 /* junkyard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = junkyard.entitlements; sourceTree = "<group>"; };
+		D6ECA5A12A029BFF004A33B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D6ECA5A72A029C00004A33B6 /* junkyardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = junkyardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ECA5AB2A029C00004A33B6 /* junkyardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkyardTests.swift; sourceTree = "<group>"; };
+		D6ECA5B12A029C00004A33B6 /* junkyardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = junkyardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D6ECA5B52A029C00004A33B6 /* junkyardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkyardUITests.swift; sourceTree = "<group>"; };
+		D6ECA5B72A029C00004A33B6 /* junkyardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = junkyardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D6ECA5C42A02A8CC004A33B6 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D6ECA5932A029BFE004A33B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECA5A42A029C00004A33B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECA5AE2A029C00004A33B6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D68FE39F2A0D647C00B403D7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECA59B2A029BFE004A33B6 /* LoginView.swift */,
+				D6ECA5C42A02A8CC004A33B6 /* SplashScreenView.swift */,
+				D6DBA3942A040D4000BD6B84 /* RegisterFinalView.swift */,
+				D6DBA3962A040D5200BD6B84 /* ContentView.swift */,
+				D68FE39D2A0D5A3100B403D7 /* ChatView.swift */,
+				D65980432A0D1789008E387F /* SearchView.swift */,
+				D6D6848E2A06D9AF009064BE /* UploadView.swift */,
+				D6D6848C2A069A78009064BE /* HomeView.swift */,
+				D64C32E42A2266C700A6543D /* ItemSheet.swift */,
+				D6DBA3922A04006500BD6B84 /* RegisterView.swift */,
+				D64C32E82A2274C500A6543D /* ItemLayout.swift */,
+				D6D55CE32A26359B0056E261 /* MessagesView.swift */,
+				D62530392A26717B00E009C1 /* AccountView.swift */,
+				D625303D2A2684AF00E009C1 /* AccountGrid.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D68FE3A02A0D648500B403D7 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				D68FE3782A0D1E2500B403D7 /* SearchData.swift */,
+				D6C989BB2A0FF4B00091B0B6 /* JSONdecoder.swift */,
+				D64C32E22A22634D00A6543D /* ItemData.swift */,
+				D62530372A266D4F00E009C1 /* NotifManager.swift */,
+				D625303B2A26800600E009C1 /* AccountData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		D68FE3A12A0D655E00B403D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D68FE3A22A0D658300B403D7 /* BotResponse.swift */,
+				D6B05FC62A278BB100F8A863 /* ImagePicker.swift */,
+				D6B05FC82A27969D00F8A863 /* UserResponse.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D6ECA58D2A029BFE004A33B6 = {
+			isa = PBXGroup;
+			children = (
+				D6ECA5982A029BFE004A33B6 /* junkyard */,
+				D6ECA5AA2A029C00004A33B6 /* junkyardTests */,
+				D6ECA5B42A029C00004A33B6 /* junkyardUITests */,
+				D6ECA5972A029BFE004A33B6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D6ECA5972A029BFE004A33B6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECA5962A029BFE004A33B6 /* junkyard.app */,
+				D6ECA5A72A029C00004A33B6 /* junkyardTests.xctest */,
+				D6ECA5B12A029C00004A33B6 /* junkyardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D6ECA5982A029BFE004A33B6 /* junkyard */ = {
+			isa = PBXGroup;
+			children = (
+				D6EA61FA2A1266CC00DCE1BF /* Info.plist */,
+				D68FE3A12A0D655E00B403D7 /* Resources */,
+				D68FE3A02A0D648500B403D7 /* Data */,
+				D68FE39F2A0D647C00B403D7 /* Views */,
+				D6ECA5992A029BFE004A33B6 /* junkyardApp.swift */,
+				D6D55CE52A26602F0056E261 /* AppDelegate.swift */,
+				D6ECA59D2A029BFF004A33B6 /* Assets.xcassets */,
+				D6EA61F82A12632C00DCE1BF /* Lacquer-Regular.ttf */,
+				D6ECA59F2A029BFF004A33B6 /* junkyard.entitlements */,
+				D6ECA5A02A029BFF004A33B6 /* Preview Content */,
+			);
+			path = junkyard;
+			sourceTree = "<group>";
+		};
+		D6ECA5A02A029BFF004A33B6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECA5A12A029BFF004A33B6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D6ECA5AA2A029C00004A33B6 /* junkyardTests */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECA5AB2A029C00004A33B6 /* junkyardTests.swift */,
+			);
+			path = junkyardTests;
+			sourceTree = "<group>";
+		};
+		D6ECA5B42A029C00004A33B6 /* junkyardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D6ECA5B52A029C00004A33B6 /* junkyardUITests.swift */,
+				D6ECA5B72A029C00004A33B6 /* junkyardUITestsLaunchTests.swift */,
+			);
+			path = junkyardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D6ECA5952A029BFE004A33B6 /* junkyard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ECA5BB2A029C00004A33B6 /* Build configuration list for PBXNativeTarget "junkyard" */;
+			buildPhases = (
+				D6ECA5922A029BFE004A33B6 /* Sources */,
+				D6ECA5932A029BFE004A33B6 /* Frameworks */,
+				D6ECA5942A029BFE004A33B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = junkyard;
+			productName = junkyard;
+			productReference = D6ECA5962A029BFE004A33B6 /* junkyard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D6ECA5A62A029C00004A33B6 /* junkyardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ECA5BE2A029C00004A33B6 /* Build configuration list for PBXNativeTarget "junkyardTests" */;
+			buildPhases = (
+				D6ECA5A32A029C00004A33B6 /* Sources */,
+				D6ECA5A42A029C00004A33B6 /* Frameworks */,
+				D6ECA5A52A029C00004A33B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6ECA5A92A029C00004A33B6 /* PBXTargetDependency */,
+			);
+			name = junkyardTests;
+			productName = junkyardTests;
+			productReference = D6ECA5A72A029C00004A33B6 /* junkyardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D6ECA5B02A029C00004A33B6 /* junkyardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D6ECA5C12A029C00004A33B6 /* Build configuration list for PBXNativeTarget "junkyardUITests" */;
+			buildPhases = (
+				D6ECA5AD2A029C00004A33B6 /* Sources */,
+				D6ECA5AE2A029C00004A33B6 /* Frameworks */,
+				D6ECA5AF2A029C00004A33B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6ECA5B32A029C00004A33B6 /* PBXTargetDependency */,
+			);
+			name = junkyardUITests;
+			productName = junkyardUITests;
+			productReference = D6ECA5B12A029C00004A33B6 /* junkyardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D6ECA58E2A029BFE004A33B6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					D6ECA5952A029BFE004A33B6 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					D6ECA5A62A029C00004A33B6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D6ECA5952A029BFE004A33B6;
+					};
+					D6ECA5B02A029C00004A33B6 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = D6ECA5952A029BFE004A33B6;
+					};
+				};
+			};
+			buildConfigurationList = D6ECA5912A029BFE004A33B6 /* Build configuration list for PBXProject "junkyard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D6ECA58D2A029BFE004A33B6;
+			productRefGroup = D6ECA5972A029BFE004A33B6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D6ECA5952A029BFE004A33B6 /* junkyard */,
+				D6ECA5A62A029C00004A33B6 /* junkyardTests */,
+				D6ECA5B02A029C00004A33B6 /* junkyardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D6ECA5942A029BFE004A33B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECA5A22A029BFF004A33B6 /* Preview Assets.xcassets in Resources */,
+				D6ECA59E2A029BFF004A33B6 /* Assets.xcassets in Resources */,
+				D6EA61F92A12632D00DCE1BF /* Lacquer-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECA5A52A029C00004A33B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECA5AF2A029C00004A33B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D6ECA5922A029BFE004A33B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D64C32E32A22634D00A6543D /* ItemData.swift in Sources */,
+				D625303C2A26800600E009C1 /* AccountData.swift in Sources */,
+				D6ECA5C52A02A8CC004A33B6 /* SplashScreenView.swift in Sources */,
+				D6D55CE42A26359B0056E261 /* MessagesView.swift in Sources */,
+				D65980442A0D1789008E387F /* SearchView.swift in Sources */,
+				D625303A2A26717B00E009C1 /* AccountView.swift in Sources */,
+				D6D6848D2A069A78009064BE /* HomeView.swift in Sources */,
+				D64C32E52A2266C700A6543D /* ItemSheet.swift in Sources */,
+				D68FE3792A0D1E2500B403D7 /* SearchData.swift in Sources */,
+				D68FE39E2A0D5A3100B403D7 /* ChatView.swift in Sources */,
+				D6DBA3952A040D4000BD6B84 /* RegisterFinalView.swift in Sources */,
+				D6B05FC92A27969D00F8A863 /* UserResponse.swift in Sources */,
+				D64C32E92A2274C600A6543D /* ItemLayout.swift in Sources */,
+				D6D6848F2A06D9AF009064BE /* UploadView.swift in Sources */,
+				D6B05FC72A278BB200F8A863 /* ImagePicker.swift in Sources */,
+				D6DBA3972A040D5200BD6B84 /* ContentView.swift in Sources */,
+				D62530382A266D4F00E009C1 /* NotifManager.swift in Sources */,
+				D6D55CE62A26602F0056E261 /* AppDelegate.swift in Sources */,
+				D68FE3A32A0D658300B403D7 /* BotResponse.swift in Sources */,
+				D625303E2A2684AF00E009C1 /* AccountGrid.swift in Sources */,
+				D6DBA3932A04006500BD6B84 /* RegisterView.swift in Sources */,
+				D6C989BC2A0FF4B00091B0B6 /* JSONdecoder.swift in Sources */,
+				D6ECA59C2A029BFE004A33B6 /* LoginView.swift in Sources */,
+				D6ECA59A2A029BFE004A33B6 /* junkyardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECA5A32A029C00004A33B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECA5AC2A029C00004A33B6 /* junkyardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6ECA5AD2A029C00004A33B6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ECA5B82A029C00004A33B6 /* junkyardUITestsLaunchTests.swift in Sources */,
+				D6ECA5B62A029C00004A33B6 /* junkyardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6ECA5A92A029C00004A33B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6ECA5952A029BFE004A33B6 /* junkyard */;
+			targetProxy = D6ECA5A82A029C00004A33B6 /* PBXContainerItemProxy */;
+		};
+		D6ECA5B32A029C00004A33B6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D6ECA5952A029BFE004A33B6 /* junkyard */;
+			targetProxy = D6ECA5B22A029C00004A33B6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D6ECA5B92A029C00004A33B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D6ECA5BA2A029C00004A33B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D6ECA5BC2A029C00004A33B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = junkyard/junkyard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"junkyard/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZB9YXW3R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = junkyard/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olivia.junkyard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D6ECA5BD2A029C00004A33B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = junkyard/junkyard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"junkyard/Preview Content\"";
+				DEVELOPMENT_TEAM = 9ZB9YXW3R9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = junkyard/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olivia.junkyard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D6ECA5BF2A029C00004A33B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZB9YXW3R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olivia.junkyardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/junkyard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/junkyard";
+			};
+			name = Debug;
+		};
+		D6ECA5C02A029C00004A33B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZB9YXW3R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olivia.junkyardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/junkyard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/junkyard";
+			};
+			name = Release;
+		};
+		D6ECA5C22A029C00004A33B6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZB9YXW3R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olivia.junkyardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = junkyard;
+			};
+			name = Debug;
+		};
+		D6ECA5C32A029C00004A33B6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9ZB9YXW3R9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = olivia.junkyardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = junkyard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D6ECA5912A029BFE004A33B6 /* Build configuration list for PBXProject "junkyard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECA5B92A029C00004A33B6 /* Debug */,
+				D6ECA5BA2A029C00004A33B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ECA5BB2A029C00004A33B6 /* Build configuration list for PBXNativeTarget "junkyard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECA5BC2A029C00004A33B6 /* Debug */,
+				D6ECA5BD2A029C00004A33B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ECA5BE2A029C00004A33B6 /* Build configuration list for PBXNativeTarget "junkyardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECA5BF2A029C00004A33B6 /* Debug */,
+				D6ECA5C02A029C00004A33B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D6ECA5C12A029C00004A33B6 /* Build configuration list for PBXNativeTarget "junkyardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D6ECA5C22A029C00004A33B6 /* Debug */,
+				D6ECA5C32A029C00004A33B6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D6ECA58E2A029BFE004A33B6 /* Project object */;
+}
